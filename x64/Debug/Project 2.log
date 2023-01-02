@@ -1,0 +1,4 @@
+﻿  ECShape.cpp
+C:\Users\dpali\Documents\CSE 3150\Week 11\Project 2 Part 0\Project 2\Project 2\ECShape.cpp(519,31): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\dpali\Documents\CSE 3150\Week 11\Project 2 Part 0\Project 2\Project 2\ECShape.cpp(527,25): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Project 2.vcxproj -> C:\Users\dpali\Documents\CSE 3150\Week 11\Project 2 Part 0\Project 2\x64\Debug\Project 2.exe

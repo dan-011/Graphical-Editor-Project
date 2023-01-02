@@ -1,0 +1,50 @@
+1. Compile line:
+g++ ECAbstractConvexPolygon.cpp ECCircle.cpp ECCommand.cpp ECControl.cpp ECConvexPolygon.cpp ECFileHandler.cpp ECGraphicViewImp.cpp ECIndivCommands.cpp ECIndivObservers.cpp ECLineSegment.cpp ECModel.cpp ECShape.cpp ECShapeFileObservers.cpp ECShapeFileSubject.cpp ECShapeManager.cpp ECTriangle.cpp Main.cpp -lallegro -lallegro_font -lallegro_primitives -lallegro_image -lallegro_main -o graphicEditor
+
+Run With:
+./graphicEditor
+
+2.
+(i)
+I was able to impelement all of the required features of this project, including:
+- Changing modes by pressing the spacebar, with the default mode being edit mode
+- Undo and Redo commands with z and y keys which supports undoing and redoing the following actions:
+	* Inserting a shape
+	* Deleting a shape
+	* Moving a shape
+	* Grouping a shape
+	* UnGrouping a shape
+	* Moving a shape with arrow keystrokes
+- In insertion mode:
+	* Drawing a purple (there is no available grey color option) trace shape while clicking and dragging the mouse, which shows the range that has been dragged and changes size as the mouse is dragging
+	* Changing the shape drawn between rectangle and ellipse by pressing the g key (default shape being rectangle)
+	* Changing between filled and unfilled shapes by pressing the f key (default is unfilled)
+	* Inserting a shape when releasing the mouse after dragging a trace shape, which has the dimensions of the trace shape
+- In edit mode:
+	* Selecting a shape by clicking it with the mouse, coloring the shape blue
+	* Moving a shape by selecting a shape and dragging the mouse
+	* Moving a shape by selecting a shape and pressing the arrow keys
+	* Deleting a shape by selecting a shape and pressing the d-key
+	* Selecting multiple shapes by holding down the ctrl key while clicking shapes
+	* Moving multiple selected shapes by clicking the group and dragging with the mouse
+	* Moving multiple selected shapes by clicking the group and pressing the arrow keys
+	* Deleting multiple selected shapes by pressing the D key
+	* Setting a grouping of shapes by pressing the G key after selecting multiple shapes
+	* Ungrouping a group of shapes by clicking a grouped shape and pressing the G key
+	* Moving a grouped shape by clicking and dragging with the mouse
+	* Moving a selected grouped shape by pressing the arrow keys
+	* Deleting a selected grouped shape by pressing the D key
+- Importing a file on the command line with preset shapes
+- Exporting a graphical editor project to a .txt file with the specified format
+
+(ii)
+There were no required features that I didn't implement.
+
+(iii)
+After thorough testing and debugging, there are no bugs to my knowledge with general use of the system.
+
+4.
+File name: Boy_and_Dog.txt
+Run with: ./graphicEditor Boy_and_Dog.txt
+
+Note: I used Microsoft Visual Studio to create this project
